@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vUW-su-jze">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alert View Controller-->
+        <scene sceneID="jCD-xp-32N">
+            <objects>
+                <viewController id="s9i-xX-oQQ" customClass="AlertViewController" customModule="Component_View_UI_base" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9t4-Eq-Kd5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLi-bm-M97">
+                                <rect key="frame" x="149.5" y="419" width="115" height="58"/>
+                                <color key="backgroundColor" red="0.70648723840000005" green="0.18549269439999999" blue="0.12542659040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="lMh-JQ-GhC"/>
+                                    <constraint firstAttribute="width" constant="115" id="vfP-oP-yKm"/>
+                                </constraints>
+                                <state key="normal" title="ALERT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="alertDidTap:" destination="s9i-xX-oQQ" eventType="touchUpInside" id="BeG-sv-mlg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Bb-bs-iWa">
+                                <rect key="frame" x="60" y="150" width="294" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="Oqb-Ap-e4k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3Bb-bs-iWa" firstAttribute="leading" secondItem="Ewj-Jm-FtT" secondAttribute="leading" constant="60" id="1CT-j5-2Yk"/>
+                            <constraint firstItem="yLi-bm-M97" firstAttribute="centerY" secondItem="9t4-Eq-Kd5" secondAttribute="centerY" id="NFL-V6-Wd7"/>
+                            <constraint firstItem="3Bb-bs-iWa" firstAttribute="top" secondItem="Ewj-Jm-FtT" secondAttribute="top" constant="106" id="SPo-D5-tDr"/>
+                            <constraint firstItem="Ewj-Jm-FtT" firstAttribute="trailing" secondItem="3Bb-bs-iWa" secondAttribute="trailing" constant="60" id="Zop-E6-nC5"/>
+                            <constraint firstItem="yLi-bm-M97" firstAttribute="centerX" secondItem="9t4-Eq-Kd5" secondAttribute="centerX" id="oeP-6q-5Js"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ewj-Jm-FtT"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelView" destination="3Bb-bs-iWa" id="ziM-AG-I4B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sao-f8-8FA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="69.642857142857139"/>
+        </scene>
+        <!--Alert Text ViewVC-->
+        <scene sceneID="yMu-7C-2L1">
+            <objects>
+                <viewController id="vUW-su-jze" customClass="AlertTextViewVC" customModule="Component_View_UI_base" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lbp-BW-Gdm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-UV-Z0G">
+                                <rect key="frame" x="141.5" y="411" width="131" height="74"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="VkA-GR-Pft"/>
+                                    <constraint firstAttribute="height" constant="74" id="mQ8-a9-1eY"/>
+                                </constraints>
+                                <state key="normal" title="Add Alert">
+                                    <color key="titleColor" red="0.70648723840000005" green="0.18549269439999999" blue="0.12542659040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="addAlertDidTap:" destination="vUW-su-jze" eventType="touchUpInside" id="Yf2-IX-GaX"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-dO-pKj">
+                                <rect key="frame" x="76" y="124" width="262" height="168"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HI-ZS-0Nz">
+                                        <rect key="frame" x="0.0" y="0.0" width="262" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="262" id="bS7-h2-og1"/>
+                                            <constraint firstAttribute="height" constant="40" id="nHl-xo-6OC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LastName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aX-JB-U7V">
+                                        <rect key="frame" x="0.0" y="74" width="262" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej4-fg-549">
+                                        <rect key="frame" x="0.0" y="138" width="262" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ffy-UV-Z0G" firstAttribute="centerY" secondItem="Lbp-BW-Gdm" secondAttribute="centerY" id="C2g-EW-hxZ"/>
+                            <constraint firstItem="ffy-UV-Z0G" firstAttribute="centerX" secondItem="Lbp-BW-Gdm" secondAttribute="centerX" id="dbA-em-t5m"/>
+                            <constraint firstItem="T1h-dO-pKj" firstAttribute="top" secondItem="ehv-DW-clW" secondAttribute="top" constant="80" id="ogB-rJ-Ie6"/>
+                            <constraint firstItem="T1h-dO-pKj" firstAttribute="centerX" secondItem="Lbp-BW-Gdm" secondAttribute="centerX" id="xpg-eL-G2Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ehv-DW-clW"/>
+                    </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="ej4-fg-549" id="QnY-Nw-3RR"/>
+                        <outlet property="lastNameLabel" destination="0aX-JB-U7V" id="y35-Jh-WvE"/>
+                        <outlet property="nameLabel" destination="8HI-ZS-0Nz" id="yw8-Qa-nJI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3eI-Ss-AgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="873.88392857142856"/>
+        </scene>
+    </scenes>
+</document>

@@ -16,6 +16,11 @@
 		1736A7FD247CB8A400EDEEEE /* AlertSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1736A7FC247CB8A400EDEEEE /* AlertSTB.storyboard */; };
 		1736A801247CB8FE00EDEEEE /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A800247CB8FE00EDEEEE /* AlertViewController.swift */; };
 		1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A802247CBE0D00EDEEEE /* AlertTextViewVC.swift */; };
+		1736A806247CC61F00EDEEEE /* SSS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1736A805247CC61F00EDEEEE /* SSS.storyboard */; };
+		1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A807247CC6AA00EDEEEE /* SwitchViewController.swift */; };
+		1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A809247CC85800EDEEEE /* SliderVC.swift */; };
+		1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80B247CCB1D00EDEEEE /* StepperVC.swift */; };
+		1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		1736A7FC247CB8A400EDEEEE /* AlertSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertSTB.storyboard; sourceTree = "<group>"; };
 		1736A800247CB8FE00EDEEEE /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		1736A802247CBE0D00EDEEEE /* AlertTextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextViewVC.swift; sourceTree = "<group>"; };
+		1736A805247CC61F00EDEEEE /* SSS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SSS.storyboard; sourceTree = "<group>"; };
+		1736A807247CC6AA00EDEEEE /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		1736A809247CC85800EDEEEE /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
+		1736A80B247CCB1D00EDEEEE /* StepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperVC.swift; sourceTree = "<group>"; };
+		1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 		1736A7E6247CB87600EDEEEE /* Component View UI base */ = {
 			isa = PBXGroup;
 			children = (
+				1736A804247CC5DF00EDEEEE /* Switch, Slider, Stepper */,
 				1736A7FF247CB8B900EDEEEE /* Share */,
 				1736A7FB247CB88000EDEEEE /* Alert */,
 				1736A7F5247CB87900EDEEEE /* Info.plist */,
@@ -90,6 +101,18 @@
 				1736A7F2247CB87900EDEEEE /* LaunchScreen.storyboard */,
 			);
 			path = Share;
+			sourceTree = "<group>";
+		};
+		1736A804247CC5DF00EDEEEE /* Switch, Slider, Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				1736A805247CC61F00EDEEEE /* SSS.storyboard */,
+				1736A807247CC6AA00EDEEEE /* SwitchViewController.swift */,
+				1736A809247CC85800EDEEEE /* SliderVC.swift */,
+				1736A80B247CCB1D00EDEEEE /* StepperVC.swift */,
+				1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */,
+			);
+			path = "Switch, Slider, Stepper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +176,7 @@
 				1736A7F4247CB87900EDEEEE /* LaunchScreen.storyboard in Resources */,
 				1736A7F1247CB87900EDEEEE /* Assets.xcassets in Resources */,
 				1736A7EF247CB87600EDEEEE /* Main.storyboard in Resources */,
+				1736A806247CC61F00EDEEEE /* SSS.storyboard in Resources */,
 				1736A7FD247CB8A400EDEEEE /* AlertSTB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,10 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */,
+				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
 				1736A7EC247CB87600EDEEEE /* ViewController.swift in Sources */,
 				1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */,
 				1736A7E8247CB87600EDEEEE /* AppDelegate.swift in Sources */,
 				1736A7EA247CB87600EDEEEE /* SceneDelegate.swift in Sources */,
+				1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */,
+				1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */,
 				1736A801247CB8FE00EDEEEE /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

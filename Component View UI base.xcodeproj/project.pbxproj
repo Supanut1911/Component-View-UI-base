@@ -21,6 +21,7 @@
 		1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A809247CC85800EDEEEE /* SliderVC.swift */; };
 		1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80B247CCB1D00EDEEEE /* StepperVC.swift */; };
 		1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */; };
+		1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80F247CD0F000EDEEEE /* ImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		1736A809247CC85800EDEEEE /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		1736A80B247CCB1D00EDEEEE /* StepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperVC.swift; sourceTree = "<group>"; };
 		1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlVC.swift; sourceTree = "<group>"; };
+		1736A80F247CD0F000EDEEEE /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				1736A809247CC85800EDEEEE /* SliderVC.swift */,
 				1736A80B247CCB1D00EDEEEE /* StepperVC.swift */,
 				1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */,
+				1736A80F247CD0F000EDEEEE /* ImageVC.swift */,
 			);
 			path = "Switch, Slider, Stepper";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */,
 				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
+				1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */,
 				1736A7EC247CB87600EDEEEE /* ViewController.swift in Sources */,
 				1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */,
 				1736A7E8247CB87600EDEEEE /* AppDelegate.swift in Sources */,

@@ -32,6 +32,8 @@
 		1754B7AF24801BB500CA65DA /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7AE24801BB500CA65DA /* firstVC.swift */; };
 		1754B7B124801BC000CA65DA /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B024801BC000CA65DA /* secondVC.swift */; };
 		1754B7B324801BF600CA65DA /* PassingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B224801BF600CA65DA /* PassingDelegate.swift */; };
+		1754B7B6248024BA00CA65DA /* FirstViewControllerOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B5248024BA00CA65DA /* FirstViewControllerOO.swift */; };
+		1754B7B8248024CD00CA65DA /* SecondViewControllerOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B7248024CD00CA65DA /* SecondViewControllerOO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		1754B7AE24801BB500CA65DA /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
 		1754B7B024801BC000CA65DA /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
 		1754B7B224801BF600CA65DA /* PassingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDelegate.swift; sourceTree = "<group>"; };
+		1754B7B5248024BA00CA65DA /* FirstViewControllerOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerOO.swift; sourceTree = "<group>"; };
+		1754B7B7248024CD00CA65DA /* SecondViewControllerOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerOO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,7 @@
 		1754B7A724800CD800CA65DA /* Backward passing */ = {
 			isa = PBXGroup;
 			children = (
+				1754B7B4248024AC00CA65DA /* Closure */,
 				1754B7AD24801B9B00CA65DA /* Delegation */,
 			);
 			path = "Backward passing";
@@ -202,6 +207,15 @@
 				1754B7B024801BC000CA65DA /* secondVC.swift */,
 			);
 			path = Delegation;
+			sourceTree = "<group>";
+		};
+		1754B7B4248024AC00CA65DA /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				1754B7B5248024BA00CA65DA /* FirstViewControllerOO.swift */,
+				1754B7B7248024CD00CA65DA /* SecondViewControllerOO.swift */,
+			);
+			path = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +301,11 @@
 				1754B7B124801BC000CA65DA /* secondVC.swift in Sources */,
 				1754B7A52480097600CA65DA /* ViewControllerTwo.swift in Sources */,
 				1754B79D248004D200CA65DA /* VCone.swift in Sources */,
+				1754B7B8248024CD00CA65DA /* SecondViewControllerOO.swift in Sources */,
 				1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */,
 				1736A7E8247CB87600EDEEEE /* AppDelegate.swift in Sources */,
 				1754B7AF24801BB500CA65DA /* firstVC.swift in Sources */,
+				1754B7B6248024BA00CA65DA /* FirstViewControllerOO.swift in Sources */,
 				1736A7EA247CB87600EDEEEE /* SceneDelegate.swift in Sources */,
 				1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */,
 				1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */,

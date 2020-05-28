@@ -22,6 +22,8 @@
 		1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80B247CCB1D00EDEEEE /* StepperVC.swift */; };
 		1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */; };
 		1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80F247CD0F000EDEEEE /* ImageVC.swift */; };
+		1736A813247CD59E00EDEEEE /* ScrollViewSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1736A812247CD59E00EDEEEE /* ScrollViewSTB.storyboard */; };
+		1736A815247CD5B100EDEEEE /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		1736A80B247CCB1D00EDEEEE /* StepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperVC.swift; sourceTree = "<group>"; };
 		1736A80D247CCD1A00EDEEEE /* SegmentControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlVC.swift; sourceTree = "<group>"; };
 		1736A80F247CD0F000EDEEEE /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
+		1736A812247CD59E00EDEEEE /* ScrollViewSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewSTB.storyboard; sourceTree = "<group>"; };
+		1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		1736A7E6247CB87600EDEEEE /* Component View UI base */ = {
 			isa = PBXGroup;
 			children = (
+				1736A811247CD57C00EDEEEE /* ScrollView */,
 				1736A804247CC5DF00EDEEEE /* Switch, Slider, Stepper */,
 				1736A7FF247CB8B900EDEEEE /* Share */,
 				1736A7FB247CB88000EDEEEE /* Alert */,
@@ -116,6 +121,15 @@
 				1736A80F247CD0F000EDEEEE /* ImageVC.swift */,
 			);
 			path = "Switch, Slider, Stepper";
+			sourceTree = "<group>";
+		};
+		1736A811247CD57C00EDEEEE /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1736A812247CD59E00EDEEEE /* ScrollViewSTB.storyboard */,
+				1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1736A813247CD59E00EDEEEE /* ScrollViewSTB.storyboard in Resources */,
 				1736A7F4247CB87900EDEEEE /* LaunchScreen.storyboard in Resources */,
 				1736A7F1247CB87900EDEEEE /* Assets.xcassets in Resources */,
 				1736A7EF247CB87600EDEEEE /* Main.storyboard in Resources */,
@@ -191,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1736A815247CD5B100EDEEEE /* ScrollViewVC.swift in Sources */,
 				1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */,
 				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
 				1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */,

@@ -24,6 +24,9 @@
 		1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A80F247CD0F000EDEEEE /* ImageVC.swift */; };
 		1736A813247CD59E00EDEEEE /* ScrollViewSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1736A812247CD59E00EDEEEE /* ScrollViewSTB.storyboard */; };
 		1736A815247CD5B100EDEEEE /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */; };
+		1754B79B248004AA00CA65DA /* PassingDataSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */; };
+		1754B79D248004D200CA65DA /* VCone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B79C248004D200CA65DA /* VCone.swift */; };
+		1754B79F248004DF00CA65DA /* VCtwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B79E248004DF00CA65DA /* VCtwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		1736A80F247CD0F000EDEEEE /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 		1736A812247CD59E00EDEEEE /* ScrollViewSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewSTB.storyboard; sourceTree = "<group>"; };
 		1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
+		1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassingDataSTB.storyboard; sourceTree = "<group>"; };
+		1754B79C248004D200CA65DA /* VCone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCone.swift; sourceTree = "<group>"; };
+		1754B79E248004DF00CA65DA /* VCtwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCtwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		1736A7E6247CB87600EDEEEE /* Component View UI base */ = {
 			isa = PBXGroup;
 			children = (
+				1754B7992480048B00CA65DA /* Passing Data */,
 				1736A811247CD57C00EDEEEE /* ScrollView */,
 				1736A804247CC5DF00EDEEEE /* Switch, Slider, Stepper */,
 				1736A7FF247CB8B900EDEEEE /* Share */,
@@ -130,6 +137,16 @@
 				1736A814247CD5B100EDEEEE /* ScrollViewVC.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		1754B7992480048B00CA65DA /* Passing Data */ = {
+			isa = PBXGroup;
+			children = (
+				1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */,
+				1754B79C248004D200CA65DA /* VCone.swift */,
+				1754B79E248004DF00CA65DA /* VCtwo.swift */,
+			);
+			path = "Passing Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +211,7 @@
 				1736A7F4247CB87900EDEEEE /* LaunchScreen.storyboard in Resources */,
 				1736A7F1247CB87900EDEEEE /* Assets.xcassets in Resources */,
 				1736A7EF247CB87600EDEEEE /* Main.storyboard in Resources */,
+				1754B79B248004AA00CA65DA /* PassingDataSTB.storyboard in Resources */,
 				1736A806247CC61F00EDEEEE /* SSS.storyboard in Resources */,
 				1736A7FD247CB8A400EDEEEE /* AlertSTB.storyboard in Resources */,
 			);
@@ -211,11 +229,13 @@
 				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
 				1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */,
 				1736A7EC247CB87600EDEEEE /* ViewController.swift in Sources */,
+				1754B79D248004D200CA65DA /* VCone.swift in Sources */,
 				1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */,
 				1736A7E8247CB87600EDEEEE /* AppDelegate.swift in Sources */,
 				1736A7EA247CB87600EDEEEE /* SceneDelegate.swift in Sources */,
 				1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */,
 				1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */,
+				1754B79F248004DF00CA65DA /* VCtwo.swift in Sources */,
 				1736A801247CB8FE00EDEEEE /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

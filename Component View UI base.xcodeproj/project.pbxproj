@@ -27,6 +27,8 @@
 		1754B79B248004AA00CA65DA /* PassingDataSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */; };
 		1754B79D248004D200CA65DA /* VCone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B79C248004D200CA65DA /* VCone.swift */; };
 		1754B79F248004DF00CA65DA /* VCtwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B79E248004DF00CA65DA /* VCtwo.swift */; };
+		1754B7A32480096F00CA65DA /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7A22480096F00CA65DA /* ViewControllerOne.swift */; };
+		1754B7A52480097600CA65DA /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7A42480097600CA65DA /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassingDataSTB.storyboard; sourceTree = "<group>"; };
 		1754B79C248004D200CA65DA /* VCone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCone.swift; sourceTree = "<group>"; };
 		1754B79E248004DF00CA65DA /* VCtwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCtwo.swift; sourceTree = "<group>"; };
+		1754B7A22480096F00CA65DA /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		1754B7A42480097600CA65DA /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,10 +147,28 @@
 			isa = PBXGroup;
 			children = (
 				1754B79A248004AA00CA65DA /* PassingDataSTB.storyboard */,
+				1754B7A02480094A00CA65DA /* Property */,
+				1754B7A12480095E00CA65DA /* Sugue */,
+			);
+			path = "Passing Data";
+			sourceTree = "<group>";
+		};
+		1754B7A02480094A00CA65DA /* Property */ = {
+			isa = PBXGroup;
+			children = (
 				1754B79C248004D200CA65DA /* VCone.swift */,
 				1754B79E248004DF00CA65DA /* VCtwo.swift */,
 			);
-			path = "Passing Data";
+			path = Property;
+			sourceTree = "<group>";
+		};
+		1754B7A12480095E00CA65DA /* Sugue */ = {
+			isa = PBXGroup;
+			children = (
+				1754B7A22480096F00CA65DA /* ViewControllerOne.swift */,
+				1754B7A42480097600CA65DA /* ViewControllerTwo.swift */,
+			);
+			path = Sugue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,12 +251,14 @@
 				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
 				1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */,
 				1736A7EC247CB87600EDEEEE /* ViewController.swift in Sources */,
+				1754B7A52480097600CA65DA /* ViewControllerTwo.swift in Sources */,
 				1754B79D248004D200CA65DA /* VCone.swift in Sources */,
 				1736A803247CBE0D00EDEEEE /* AlertTextViewVC.swift in Sources */,
 				1736A7E8247CB87600EDEEEE /* AppDelegate.swift in Sources */,
 				1736A7EA247CB87600EDEEEE /* SceneDelegate.swift in Sources */,
 				1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */,
 				1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */,
+				1754B7A32480096F00CA65DA /* ViewControllerOne.swift in Sources */,
 				1754B79F248004DF00CA65DA /* VCtwo.swift in Sources */,
 				1736A801247CB8FE00EDEEEE /* AlertViewController.swift in Sources */,
 			);

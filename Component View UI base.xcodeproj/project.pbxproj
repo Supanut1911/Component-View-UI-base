@@ -34,6 +34,10 @@
 		1754B7B324801BF600CA65DA /* PassingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B224801BF600CA65DA /* PassingDelegate.swift */; };
 		1754B7B6248024BA00CA65DA /* FirstViewControllerOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B5248024BA00CA65DA /* FirstViewControllerOO.swift */; };
 		1754B7B8248024CD00CA65DA /* SecondViewControllerOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754B7B7248024CD00CA65DA /* SecondViewControllerOO.swift */; };
+		178C02EA24815D20007F28C5 /* NavSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178C02E924815D20007F28C5 /* NavSTB.storyboard */; };
+		178C02EC24815DD9007F28C5 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C02EB24815DD9007F28C5 /* VC1.swift */; };
+		178C02EE24815DE0007F28C5 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C02ED24815DE0007F28C5 /* VC2.swift */; };
+		178C02F024815FE7007F28C5 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C02EF24815FE7007F28C5 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		1754B7B224801BF600CA65DA /* PassingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDelegate.swift; sourceTree = "<group>"; };
 		1754B7B5248024BA00CA65DA /* FirstViewControllerOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerOO.swift; sourceTree = "<group>"; };
 		1754B7B7248024CD00CA65DA /* SecondViewControllerOO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerOO.swift; sourceTree = "<group>"; };
+		178C02E924815D20007F28C5 /* NavSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavSTB.storyboard; sourceTree = "<group>"; };
+		178C02EB24815DD9007F28C5 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		178C02ED24815DE0007F28C5 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		178C02EF24815FE7007F28C5 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 		1736A7E6247CB87600EDEEEE /* Component View UI base */ = {
 			isa = PBXGroup;
 			children = (
+				178C02E824815D05007F28C5 /* Navigation & Tap bar */,
 				1754B7992480048B00CA65DA /* Passing Data */,
 				1736A811247CD57C00EDEEEE /* ScrollView */,
 				1736A804247CC5DF00EDEEEE /* Switch, Slider, Stepper */,
@@ -218,6 +227,17 @@
 			path = Closure;
 			sourceTree = "<group>";
 		};
+		178C02E824815D05007F28C5 /* Navigation & Tap bar */ = {
+			isa = PBXGroup;
+			children = (
+				178C02EF24815FE7007F28C5 /* Protocols.swift */,
+				178C02E924815D20007F28C5 /* NavSTB.storyboard */,
+				178C02EB24815DD9007F28C5 /* VC1.swift */,
+				178C02ED24815DE0007F28C5 /* VC2.swift */,
+			);
+			path = "Navigation & Tap bar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,6 +302,7 @@
 				1736A7EF247CB87600EDEEEE /* Main.storyboard in Resources */,
 				1754B79B248004AA00CA65DA /* PassingDataSTB.storyboard in Resources */,
 				1736A806247CC61F00EDEEEE /* SSS.storyboard in Resources */,
+				178C02EA24815D20007F28C5 /* NavSTB.storyboard in Resources */,
 				1736A7FD247CB8A400EDEEEE /* AlertSTB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1736A815247CD5B100EDEEEE /* ScrollViewVC.swift in Sources */,
+				178C02F024815FE7007F28C5 /* Protocols.swift in Sources */,
 				1736A80E247CCD1A00EDEEEE /* SegmentControlVC.swift in Sources */,
 				1736A808247CC6AA00EDEEEE /* SwitchViewController.swift in Sources */,
 				1736A810247CD0F000EDEEEE /* ImageVC.swift in Sources */,
@@ -308,6 +330,8 @@
 				1754B7B6248024BA00CA65DA /* FirstViewControllerOO.swift in Sources */,
 				1736A7EA247CB87600EDEEEE /* SceneDelegate.swift in Sources */,
 				1736A80A247CC85800EDEEEE /* SliderVC.swift in Sources */,
+				178C02EE24815DE0007F28C5 /* VC2.swift in Sources */,
+				178C02EC24815DD9007F28C5 /* VC1.swift in Sources */,
 				1736A80C247CCB1D00EDEEEE /* StepperVC.swift in Sources */,
 				1754B7A32480096F00CA65DA /* ViewControllerOne.swift in Sources */,
 				1754B79F248004DF00CA65DA /* VCtwo.swift in Sources */,

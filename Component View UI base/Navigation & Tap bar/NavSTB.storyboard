@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kxr-nw-6fs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sb5-il-COy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -43,6 +43,46 @@
             </objects>
             <point key="canvasLocation" x="1297.1014492753625" y="-195.53571428571428"/>
         </scene>
+        <!--VC1-->
+        <scene sceneID="9PQ-kU-dQs">
+            <objects>
+                <viewController id="ijj-bw-r4W" customClass="ToolBarViewController" customModule="Component_View_UI_base" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pTm-Tx-mAd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RrQ-Ue-qol">
+                                <rect key="frame" x="87" y="328.5" width="240" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="29t-KZ-4nE"/>
+                                    <constraint firstAttribute="height" constant="239" id="Cpx-hm-rE8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RrQ-Ue-qol" firstAttribute="centerY" secondItem="pTm-Tx-mAd" secondAttribute="centerY" id="5lt-zo-03d"/>
+                            <constraint firstItem="RrQ-Ue-qol" firstAttribute="centerX" secondItem="pTm-Tx-mAd" secondAttribute="centerX" id="oyI-h4-lvg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Svo-k1-UDy"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem image="square.and.arrow.up" catalog="system" id="rtM-bH-Vcg"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bdN-A5-uJc"/>
+                        <barButtonItem image="square.and.arrow.down" catalog="system" id="ysa-08-yav"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="9hM-yF-QsR"/>
+                        <barButtonItem image="smile" id="GKa-XA-23b"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="VC1" id="F0Y-cN-WPt"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="RrQ-Ue-qol" id="vuF-zZ-lkz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWk-ft-Vk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295.6521739130435" y="669.64285714285711"/>
+        </scene>
         <!--VC2-->
         <scene sceneID="Jzi-2p-jHn">
             <objects>
@@ -79,6 +119,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PvA-Q1-HFq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="PWV-PA-Y1Q" kind="relationship" relationship="rootViewController" id="1KS-zh-pzT"/>
                     </connections>
@@ -87,5 +130,32 @@
             </objects>
             <point key="canvasLocation" x="386.95652173913044" y="-195.53571428571428"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6id-Gv-Hu2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="Sb5-il-COy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Dj-9H-Oj3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="See-rY-p0G">
+                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="ijj-bw-r4W" kind="relationship" relationship="rootViewController" id="k2o-GU-plm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xYT-Z3-ss8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="670"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="smile" width="80" height="80"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+    </resources>
 </document>

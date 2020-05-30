@@ -14,6 +14,7 @@ class TableVC: UIViewController {
     var emojiPicture = ["smile", "cry", "angry"]
     var emojiPrice = ["$99", "$299","$699"]
 
+    @IBOutlet weak var emojiTable: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,7 @@ class TableVC: UIViewController {
         
     }
     
-
+    
 
 }
 
@@ -39,4 +40,25 @@ extension TableVC: UITableViewDataSource {
         
         return cell
     }
+    
+     
+}
+
+extension TableVC: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goTodetail", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let i = emojiTable.indexPathForSelectedRow
+        let cell = emojiTable.cellForRow(at: i!)
+        
+        let desVC = segue.destination as! resCellVC
+        desVC.img = emojiPicture[i!.row]
+        desVC.emoName = emojiName[i!.row]
+        
+    
+    }
+    
+   
 }

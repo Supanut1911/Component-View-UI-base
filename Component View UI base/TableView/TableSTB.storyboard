@@ -86,21 +86,56 @@
                         <viewLayoutGuide key="safeArea" id="162-M9-ZlC"/>
                     </view>
                     <navigationItem key="navigationItem" title="EmoJi" id="WdU-7O-hXa"/>
+                    <connections>
+                        <outlet property="emojiTable" destination="Gh9-eA-lYf" id="BeD-Ln-WE6"/>
+                        <segue destination="LDL-Xp-rRM" kind="show" identifier="goTodetail" id="Wk7-9w-Aeu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8H-Rs-KKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="868.11594202898561" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Res CellVC-->
         <scene sceneID="9o2-ol-M5O">
             <objects>
-                <viewController id="LDL-Xp-rRM" sceneMemberID="viewController">
+                <viewController id="LDL-Xp-rRM" customClass="resCellVC" customModule="Component_View_UI_base" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aWB-6G-PoO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YA-9d-gWn">
+                                <rect key="frame" x="87" y="140" width="240" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5Pa-hM-Kxm"/>
+                                    <constraint firstAttribute="height" constant="59" id="KGK-Zf-pzG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fRU-D0-yVA">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="U1p-W9-81z"/>
+                                    <constraint firstAttribute="width" constant="240" id="slQ-hr-oH6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1YA-9d-gWn" firstAttribute="top" secondItem="9eG-zQ-mDA" secondAttribute="top" constant="52" id="7KL-Tn-NLo"/>
+                            <constraint firstItem="9eG-zQ-mDA" firstAttribute="trailing" secondItem="1YA-9d-gWn" secondAttribute="trailing" constant="87" id="JY8-3Q-xkQ"/>
+                            <constraint firstItem="fRU-D0-yVA" firstAttribute="centerX" secondItem="aWB-6G-PoO" secondAttribute="centerX" id="VeH-f3-RO0"/>
+                            <constraint firstItem="fRU-D0-yVA" firstAttribute="centerY" secondItem="aWB-6G-PoO" secondAttribute="centerY" id="cbE-K8-vPQ"/>
+                            <constraint firstItem="1YA-9d-gWn" firstAttribute="leading" secondItem="9eG-zQ-mDA" secondAttribute="leading" constant="87" id="uA3-vD-Yva"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9eG-zQ-mDA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VfH-Zp-5wk"/>
+                    <connections>
+                        <outlet property="emoLabel" destination="1YA-9d-gWn" id="WWi-pY-ld6"/>
+                        <outlet property="imageView" destination="fRU-D0-yVA" id="HyB-MK-6yN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfV-EW-jNV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
